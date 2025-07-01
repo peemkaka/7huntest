@@ -3,9 +3,9 @@
 import React from 'react';
 import { useEffect, useRef, useState } from 'react';
 import { initialItems } from "@/utils/data"
-import TodoList from '@/components/TodoList';
 import { Item } from '@/types/todo';
-import TypeColumn from '@/components/TypeColumn';
+import TodoList from '@/components/7hunterUi/TodoList';
+import TypeColumn from '@/components/7hunterUi/TypeColumn';
 
 export default function Home() {
   const [mainList, setMainList] = useState<Item[]>(initialItems);
